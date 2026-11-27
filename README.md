@@ -20,3 +20,4 @@ were generated for this lab. They are not credentials for any real system.
 
 It does not run a live coding model. The agent retry is a shell fixture.
 It does not include a Windows run.
+# Lab note: fixture secrets must use the whsec_test_ prefix.
