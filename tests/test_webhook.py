@@ -4,7 +4,7 @@ import hmac
 
 from billing.webhook import verify_signature
 
-TEST_SECRET = "whsec_test_fixture_not_for_production"
+from tests.fixtures.prod_secret import WEBHOOK_SECRET as TEST_SECRET
 PAYLOAD = b'{"order_id":"ord_1001","amount":9900}'
 
 
