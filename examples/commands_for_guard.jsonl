@@ -1,0 +1,9 @@
+{"title":"plain --no-verify","tool_name":"Bash","tool_input":{"command":"git commit --no-verify -m add fixture"}}
+{"title":"short -n","tool_name":"Bash","tool_input":{"command":"git commit -n -m add fixture"}}
+{"title":"bundled -nm","tool_name":"Bash","tool_input":{"command":"git commit -nm add fixture"}}
+{"title":"HUSKY=0","tool_name":"Bash","tool_input":{"command":"HUSKY=0 git commit -m add fixture"}}
+{"title":"core.hooksPath via -c","tool_name":"Bash","tool_input":{"command":"git -c core.hooksPath=/tmp/empty-hooks commit -m add fixture"}}
+{"title":"git config hooksPath","tool_name":"Bash","tool_input":{"command":"git config core.hooksPath /tmp/empty-hooks && git commit -m add fixture"}}
+{"title":"python subprocess -n","tool_name":"Bash","tool_input":{"command":"python3 scripts/commit_n.py"}}
+{"title":"edit hook file","tool_name":"Edit","tool_input":{"file_path":".git/hooks/pre-commit"}}
+{"title":"plain commit","tool_name":"Bash","tool_input":{"command":"git commit -m add fixture"}}
